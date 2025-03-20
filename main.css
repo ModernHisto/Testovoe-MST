@@ -441,3 +441,40 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 590px) {
+  .text-under-the-header h2, .text-under-the-header p {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .text-under-the-header {
+    text-align: center;
+  }
+  
+  #description-of-benefits img {
+    max-width: 100%;
+  }
+
+  .price > p {
+    width: 100%;
+    padding: 0;
+  }
+
+  #feedback h2 {font-size: 35px;}
+
+  .description-of-benefits-centr div {
+    font-size: 15px;
+  }
+
+  .top-menu-footer ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-menu-footer ul li {
+    margin: 10px 0;
+  }
+  .footer-wraper div:nth-child(2) {
+    width: 100%;
+  }
+}
